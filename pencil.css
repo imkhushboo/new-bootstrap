@@ -1,0 +1,14 @@
+.center{
+    margin:0;
+    padding:20px;
+
+}
+.pencil{
+    margin:0;
+    padding:10px;
+    color: #0ffa;
+    align-items:center;
+}
+.pencil p{
+    text-decoration-line: overline;
+}
