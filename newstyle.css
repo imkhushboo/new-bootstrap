@@ -11,6 +11,10 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+nav{
+    position: relative;
+    display: flex;
+}
 nav a{
     position: relative;
     margin: 0 20px;
@@ -20,9 +24,10 @@ nav a{
 }
 nav #marker{
     position: absolute;
+    left:0;
     height: 4px;
     width: 0%;
-    background-color: #000;
+    background: #000;
     bottom: -8px;
     transition: 0.5s;
     border-radius: 4px;
